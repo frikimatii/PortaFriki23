@@ -1,0 +1,167 @@
+* {
+  background: #313131;
+  color: #bdbdbd;
+}
+
+.BTNCV {
+  background-color: #9400aa !important;
+  border-radius: 30px !important;
+  padding: 3px;
+  border: #f8c7ff solid 3px !important;
+}
+
+
+.titulo {
+  font-family: "Arizonia", cursive;
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: aquamarine;
+  animation: leds 4s ease-in-out infinite ;
+}
+
+
+@keyframes leds {
+  0%{
+    color: #5252b1;
+  }
+  25%{
+    color:#8cff98
+  }
+  50%{
+    color: #fefe9d;
+  }
+  100%{
+    color: #313131;
+  }
+}
+
+.letragrande{
+  animation: leds 6s ease infinite;
+}
+
+/* Estilo inicial del subrayado */
+.underline-animation {
+  position: relative;
+}
+
+.underline-animation::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  width: 0;
+  height: 5px;
+  background-color: #9400aa;
+  transform: translateX(-50%);
+  transition: width 0.5s; /* Duración de la animación */
+}
+
+.underline-animation:hover::before {
+  width: 70%;
+}
+
+.perfil {
+  border: solid rgb(255, 226, 253) 10px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.hobbie {
+  border-bottom: 5px solid #b500c5;
+  width: 70%;
+  margin: auto;
+  margin-top: 10px;
+}
+.boxsvg{
+width: 100px !important;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+    stroke-opacity: 0.9;
+    stroke-dasharray: 1;
+  stroke: #db80ff;
+  }
+}
+
+/* Aplicar la animación a los elementos con la clase .cls-1 */
+.cls-1,
+.cls-2,
+.cls-3 {
+  fill: none;
+  stroke: #eff2ff;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.5;
+  stroke-width: 9.2px;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation: draw 2s ease forwards;
+}
+
+
+#iconsgrafiti:hover {
+  transform: scale(0.8);
+}
+
+.box-front {
+  margin: auto;
+  width: 80%;
+}
+
+/* Estilo de la barra de progreso */
+.progr {
+  width: 3%;
+  height: 5px;
+  background-color: #9400aa;
+  margin: auto;
+  transition: width 0.5s;
+}
+
+.boxskill {
+  border-top: solid #9400aa 5px;
+  border-bottom: solid #9400aa 5px;
+  border-radius: 30px;
+  padding: 5px;
+}
+.skillboxdesing {
+  border-top: solid #9400aa 5px;
+  border-radius: 30px;
+  padding-top: 10px;
+  width: 70%;
+  margin: auto;
+}
+.textex {
+  border-top: solid #9400aa 5px;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+}
+.info {
+  width: 75%;
+  margin: auto;
+}
+.redes {
+  border: solid #9400aa 5px;
+  margin: auto;
+  padding: 10px;
+  width: 70%;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+.formulario {
+  width: 90%;
+  margin: auto;
+  border: solid #9400aa 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+}
+
+
+
+
