@@ -128,6 +128,8 @@ let navdesig = document.querySelector(`#NavDesig`);
 let navweb = document.querySelector(`#NavWeb`);
 let navall = document.querySelector(`#NavAll`);
 
+
+
 let clear = document.querySelector(`#clear`);
 
 let web1 = document.querySelector(`#web1`);
