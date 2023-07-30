@@ -1,0 +1,19 @@
+{
+  "name": "portafolio23frikimatii",
+  "version": "0.0.1",
+  "description": "Soy un desarrollador web con experiencia en HTML, CSS, JavaScript, React y diseño gráfico. Bienvenido a mi portafolio.",
+  "main": "js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frikimatii/PortaFriki23.git"
+  },
+  "author": "frikimatii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frikimatii/PortaFriki23/issues"
+  },
+  "homepage": "https://github.com/frikimatii/PortaFriki23#readme"
+}
